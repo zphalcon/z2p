@@ -20,6 +20,7 @@ class ZSwitch
 					$result .= ZStatement::convert($statement, $indent + 2);
 				}
 			}
+			$result .= PHP_EOL;
 		}
 		$result .= PHP_EOL . indent($indent) . '}' . PHP_EOL;
 		return $result;
