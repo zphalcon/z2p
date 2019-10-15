@@ -1,2 +1,2 @@
 # z2p
-zephir source to php source
+convert zephir source to php source
